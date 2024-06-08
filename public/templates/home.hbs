@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>Weather App</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="search-box">
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="text" placeholder="Enter your location" />
+        <button class="fa-solid fa-magnifying-glass"></button>
+      </div>
+      <div class="not-found">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBg-NjN1cH5nysLe-2Y4c3wyXgtV-m8FVYlQ&s"
+        />
+        <p>Oops! Invalid Location</p>
+      </div>
+      <div class="weather-box">
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/9421/9421117.png"
+          alt="image error"
+        />
+        <p class="temperature"></p>
+        <p class="description"></p>
+      </div>
+      <div class="weather-details">
+        <div class="humidity">
+          <i class="fa-solid fa-water"></i>
+          <div class="text">
+            <span></span>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="wind">
+          <i class="fa-solid fa-wind"></i>
+          <div class="text">
+            <span></span>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/ce865568a9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
